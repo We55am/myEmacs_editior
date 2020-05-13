@@ -1,7 +1,7 @@
 * Commands
+** Default
 "C-" is the Ctrl Button
 "M-" is the Alt Button
-
 C-g     : Quit "escape from any commands"
 C-x C-c : Exit Emacs
 C-x C-f : opens a file
@@ -27,6 +27,11 @@ C-s     : search
 M-%     : search and replace
 M-s o   : occurances
 M-x grep: greps a pattern
+** Setup Commands
+SUPERKEY + ENTER : Open ansi-term terminal
+
+
+
 
 M-x $(Command)
 Commands:
@@ -37,3 +42,4 @@ pwd : print current working directory
 
 github.com/byuksel
 https://www.youtube.com/channel/UCDEtZ7AKmwS0_GNJog01D2g "Uncle Dave"
+https://www.youtube.com/channel/UCibKclzsnnHjQZFOLuykZ1A "b yuksel"
