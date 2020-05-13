@@ -57,8 +57,8 @@
 
 * References
 
-//github.com/byuksel
-//
-//https://www.youtube.com/channel/UCDEtZ7AKmwS0_GNJog01D2g "Uncle Dave"
-//https://www.youtube.com/channel/UCibKclzsnnHjQZFOLuykZ1A "b yuksel"
-
+Uncle Dave\\
+https://www.youtube.com/channel/UCDEtZ7AKmwS0_GNJog01D2g\\
+b yuksel\\
+https://www.youtube.com/channel/UCibKclzsnnHjQZFOLuykZ1A\\
+github.com/byuksel\\
