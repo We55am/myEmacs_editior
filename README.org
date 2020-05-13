@@ -1,5 +1,8 @@
 #+TITLE: README
 #+AUTHOR: Wessam
+#+LANGUAGE: en
+#+OPTIONS: num:nil
+#+ATTR_HTML: :style margin-left: auto; margin-right: auto;
 * Commands
 ** Default
 - "C-" is the Ctrl Button
@@ -36,26 +39,10 @@
 ** Setup Commands
 - SUPERKEY + ENTER : Open ansi-term terminal
 
-* Terminal
-#+BEGIN_SRC emacs-lisp
-;; Using ansi-term terminal
-(defvar my-term-shell "/bin/bash")
-(defadvice ansi-term (before force-bash)
-  (interactive (list my-term-shell)))
-(ad-activate 'ansi-term)
-
-;; Killing terminal with pressing "y" instead of typing "yes"
-(defalias 'yes-or-no-p 'y-or-n-p)
-
-;; launching the terminal with the super key + Enter
-(global-set-key (kbd "<s-return>") 'ansi-term)
-#+END_SRC
-
-
 * References
-- Uncle Dave\\
+- Uncle Dave
 https://www.youtube.com/channel/UCDEtZ7AKmwS0_GNJog01D2g \\
-github.com/daedreth/UncleDavesEmacs \\
-- b yuksel\\
+github.com/daedreth/UncleDavesEmacs
+- b yuksel
 https://www.youtube.com/channel/UCibKclzsnnHjQZFOLuykZ1A \\
-github.com/byuksel \\
+github.com/byuksel
