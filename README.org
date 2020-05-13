@@ -1,46 +1,42 @@
+#+TITLE: README
+#+AUTHOR: Wessam
 * Commands
 ** Default
-#+BEGIN_VERSE
-"C-" is the Ctrl Button
-"M-" is the Alt Button
-C-g     : Quit "escape from any commands"
-C-x C-c : Exit Emacs
-C-x C-f : opens a file
-C-x C-s : save the file
-C-x b   : change buffer
-C-x o   : go to other window
-C-k     : deletes a line
-C-y     : paste your clipboard
-C-space : marks a region
-C-w     : Cuts
-M-w     : Copy
-C-a     : Beginning of line
-C-e     : End of line 
-M->     : End of buffer
-M-<     : Beginning of buffer
-C-/     : Undo
-C-g C-/ : Redo
-C-x 0   : close window
-C-x 1   : will leave only one window
-C-x 2   : a horizontal cut
-C-x 3   : a vertical cut
-C-s     : search
-M-%     : search and replace
-M-s o   : occurances
-M-x grep: greps a pattern
-M-x $(Command)
-Commands
-pwd : print current working directory
-
-#+END_VERSE
+- "C-" is the Ctrl Button
+- "M-" is the Alt Button
+- C-g     : Quit "escape from any commands"
+- C-x C-c : Exit Emacs
+- C-x C-f : opens a file
+- C-x C-s : save the file
+- C-x b   : change buffer
+- C-x o   : go to other window
+- C-k     : deletes a line
+- C-y     : paste your clipboard
+- C-space : marks a region
+- C-w     : Cuts
+- M-w     : Copy
+- C-a     : Beginning of line
+- C-e     : End of line 
+- M->     : End of buffer
+- M-<     : Beginning of buffer
+- C-/     : Undo
+- C-g C-/ : Redo
+- C-x 0   : close window
+- C-x 1   : will leave only one window
+- C-x 2   : a horizontal cut
+- C-x 3   : a vertical cut
+- C-s     : search
+- M-%     : search and replace
+- M-s o   : occurances
+- M-x grep: greps a pattern
+- M-x $(Command)
+*** Commands
+- pwd : print current working directory
 
 ** Setup Commands
-#+BEGIN_VERSE
-SUPERKEY + ENTER : Open ansi-term terminal
-#+END_VERSE
+- SUPERKEY + ENTER : Open ansi-term terminal
 
 * Terminal
-#+BEGIN_SRC emacs-lisp
 #+BEGIN_SRC emacs-lisp
 ;; Using ansi-term terminal
 (defvar my-term-shell "/bin/bash")
@@ -57,10 +53,8 @@ SUPERKEY + ENTER : Open ansi-term terminal
 
 
 * References
-#+BEGIN_VERSE
-Uncle Dave
-https://www.youtube.com/channel/UCDEtZ7AKmwS0_GNJog01D2g
-b yuksel
-https://www.youtube.com/channel/UCibKclzsnnHjQZFOLuykZ1A
-github.com/byuksel
-#+END_VERSE
+- Uncle Dave\\
+https://www.youtube.com/channel/UCDEtZ7AKmwS0_GNJog01D2g \\
+- b yuksel\\
+https://www.youtube.com/channel/UCibKclzsnnHjQZFOLuykZ1A \\
+- github.com/byuksel \\
