@@ -9,7 +9,7 @@
   (package-install 'use-package))					;
 
 ;; Using use-package
-;; Which-key show you the completeion of commands
+;; Which-key show you commands
 (use-package which-key
   :ensure t
   :init
@@ -52,7 +52,7 @@
 (add-hook 'c++-mode-hook 'my:ac-c-header-init)
 (add-hook 'c-mode-hook 'my:ac-c-header-init)
 
-;; Tool, scroll, menu bar's
+;; Tool, scroll, menu bar's hiding
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
