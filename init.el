@@ -91,8 +91,8 @@
   :init
   (diminish 'hungry-delete-mode))
 
-;; dmenu
-
+;; adding number lines
+(global-display-line-numbers-mode)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

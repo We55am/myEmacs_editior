@@ -45,4 +45,6 @@ https://www.youtube.com/channel/UCDEtZ7AKmwS0_GNJog01D2g \\
 github.com/daedreth/UncleDavesEmacs
 - b yuksel
 https://www.youtube.com/channel/UCibKclzsnnHjQZFOLuykZ1A \\
-github.com/byuksel
+github.com/byuksel \\
+
+- http://ergoemacs.org/emacs/emacs.html \\
